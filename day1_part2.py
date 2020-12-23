@@ -4,7 +4,7 @@
 # puzzle answer: 295668576
 
 
-from utils import read_input
+from utils.utils import read_input
 
 def main():
     content = read_input("inputs/day1_input.txt")
@@ -19,7 +19,7 @@ def main():
                 print(f"Result: {(2020 - calculated_number) * first_number * second_number}")
                 break
 
- if __name__ == "__main__":
+if __name__ == "__main__":
     main()
 
 # For (558, 664), found 798

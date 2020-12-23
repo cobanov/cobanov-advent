@@ -3,7 +3,7 @@
 # github: cobanov
 # puzzle answer: 928896
 
-from utils import read_input
+from utils.utils import read_input
 
 
 def main():

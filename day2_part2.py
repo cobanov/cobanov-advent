@@ -3,7 +3,7 @@
 # github: cobanov
 # puzzle answer: 489
 
-from utils import read_input
+from utils.utils import read_input
 from day2_part1 import split_text
 
 
