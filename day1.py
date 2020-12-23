@@ -1,6 +1,7 @@
 # Mert Cobanov - Advent of Code 2020
 # Day 1 - 23.12.2020 08:34
 # github: cobanov
+# puzzle answer: 928896
 
 
 def read_input(path):
@@ -18,3 +19,6 @@ for number in content_int:
         print(f"For {number}, found {2020 - number}")
         print(f"Result: {number * (2020 - number)}")
         break
+
+# For 1312, found 708
+# Result: 928896
