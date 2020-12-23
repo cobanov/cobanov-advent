@@ -1,5 +1,5 @@
 # Mert Cobanov - Advent of Code 2020
-# Day 2 Part 1 - 23.12.2020 09:43
+# Day 2 Part 1 - 23.12.2020 12:32
 # github: cobanov
 # puzzle answer: 538
 
