@@ -5,10 +5,9 @@
 
 from utils import read_input
 
-content = read_input("inputs/day2_input.txt")
-
 
 def split_text(input):
+
     first_step = input.split("-")
     second_step = first_step[1].split(":")
     third_step = second_step[0].split(" ")
@@ -21,14 +20,20 @@ def split_text(input):
     return min_times, max_times, letter, content
 
 
-valid_passwords = list()
+def main():
 
-for input in content:
-    min_times, max_times, letter, content = split_text(input)
-    times = content.count(letter)
-    if times >= min_times and times <= max_times:
-        valid_passwords.append(input)
+    content = read_input("inputs/day2_input.txt")
+    valid_passwords = list()
 
-print("Valid passwords count: ", len(valid_passwords))
+    for input in content:
+        min_times, max_times, letter, content = split_text(input)
+        times = content.count(letter)
+        if times >= min_times and times <= max_times:
+            valid_passwords.append(input)
 
-# Valid passwords count: 538
+    print("Valid passwords count: ", len(valid_passwords))
+    # Valid passwords count: 538
+
+
+if __name__ == "__main__":
+    main()
