@@ -4,12 +4,7 @@
 # puzzle answer: 295668576
 
 
-def read_input(path):
-    with open(path, "r") as file:
-        content = file.readlines()
-
-    return content
-
+from utils import read_input
 
 content = read_input("inputs/day1_input.txt")
 content_int = list(map(lambda x: int(x), content))

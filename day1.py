@@ -1,15 +1,9 @@
 # Mert Cobanov - Advent of Code 2020
-# Day 1 - 23.12.2020 08:34
+# Day 1 Part 1 - 23.12.2020 08:34
 # github: cobanov
 # puzzle answer: 928896
 
-
-def read_input(path):
-    with open(path, "r") as file:
-        content = file.readlines()
-
-    return content
-
+from utils import read_input
 
 content = read_input("inputs/day1_input.txt")
 content_int = list(map(lambda x: int(x), content))
